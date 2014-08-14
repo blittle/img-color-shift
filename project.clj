@@ -15,5 +15,5 @@
               :compiler {
                 :output-to "img_color_shift.js"
                 :output-dir "out"
-                :optimizations :advanced
+                :optimizations :none
                 :source-map true}}]})

@@ -1,5 +1,8 @@
 (ns img-color-shift.core)
 
-(defn ^:export main []  
-    (.write js/document "<p>Hello, ClojureScript compiler!</p>"))
+(defn greeting  
+    ([] (greeting "World!"))
+    ([name] (str "Hello, " name)))
 
+(defn ^:export main []  
+    (.write js/document (greeting "Breet")))
